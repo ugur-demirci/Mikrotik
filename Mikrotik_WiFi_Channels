@@ -184,3 +184,35 @@ add band=5ghz-onlyac control-channel-width=20mhz extension-channel=Ceee frequenc
 add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eCee frequency=5765 name=ch155@80MHz/ch151@40MHz
 add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeCe frequency=5785 name=ch155@80MHz/ch159@40MHz
 add band=5ghz-onlyac control-channel-width=20mhz extension-channel=eeeC frequency=5805 name=ch155@80MHz/ch159@40MHz
+
+
+
+/interface wireless channels
+add band=2ghz-onlyn extension-channel=Ce frequency=2412 list=2ghz name=ch01 width=20
+add band=2ghz-onlyn extension-channel=eC frequency=2432 list=2ghz name=ch05 width=20
+add band=2ghz-onlyn extension-channel=Ce frequency=2452 list=2ghz name=ch09 width=20
+add band=2ghz-onlyn extension-channel=eC frequency=2472 list=2ghz name=ch13 width=20
+add band=5ghz-onlyac extension-channel=Ceee frequency=5180 list=5ghz name=ch36 width=20  comment=UNII-1
+add band=5ghz-onlyac extension-channel=eCee frequency=5200 list=5ghz name=ch40 width=20
+add band=5ghz-onlyac extension-channel=eeCe frequency=5220 list=5ghz name=ch44 width=20
+add band=5ghz-onlyac extension-channel=eeeC frequency=5240 list=5ghz name=ch48 width=20
+add band=5ghz-onlyac extension-channel=Ceee frequency=5260 list=5ghz name=ch52 width=20  comment=UNII-2
+add band=5ghz-onlyac extension-channel=eCee frequency=5280 list=5ghz name=ch56 width=20
+add band=5ghz-onlyac extension-channel=eeCe frequency=5300 list=5ghz name=ch60 width=20
+add band=5ghz-onlyac extension-channel=eeeC frequency=5320 list=5ghz name=ch64 width=20
+add band=5ghz-onlyac extension-channel=Ceee frequency=5500 list=5ghz name=ch100 width=20  comment=UNII-2-Ext
+add band=5ghz-onlyac extension-channel=eCee frequency=5520 list=5ghz name=ch104 width=20
+add band=5ghz-onlyac extension-channel=eeCe frequency=5540 list=5ghz name=ch108 width=20
+add band=5ghz-onlyac extension-channel=eeeC frequency=5560 list=5ghz name=ch112 width=20
+add band=5ghz-onlyac extension-channel=Ceee frequency=5580 list=5ghz name=ch116 width=20
+add band=5ghz-onlyac extension-channel=eCee frequency=5600 list=5ghz name=ch120 width=20
+add band=5ghz-onlyac extension-channel=eeCe frequency=5620 list=5ghz name=ch124 width=20
+add band=5ghz-onlyac extension-channel=eeeC frequency=5640 list=5ghz name=ch128 width=20
+add band=5ghz-onlyac extension-channel=Ceee frequency=5660 list=5ghz name=ch132 width=20
+add band=5ghz-onlyac extension-channel=eCee frequency=5680 list=5ghz name=ch136 width=20
+add band=5ghz-onlyac extension-channel=eeCe frequency=5700 list=5ghz name=ch140 width=20
+add band=5ghz-onlyac extension-channel=eeeC frequency=5720 list=5ghz name=ch144 width=20
+add band=5ghz-onlyac extension-channel=Ceee frequency=5745 list=5ghz name=ch149 width=20  comment=UNII-3
+add band=5ghz-onlyac extension-channel=eCee frequency=5765 list=5ghz name=ch153 width=20
+add band=5ghz-onlyac extension-channel=eeCe frequency=5785 list=5ghz name=ch157 width=20
+add band=5ghz-onlyac extension-channel=eeeC frequency=5805 list=5ghz name=ch161 width=20
